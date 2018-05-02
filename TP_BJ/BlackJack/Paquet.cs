@@ -8,5 +8,14 @@ namespace Partie
 {
    class Paquet
    {
+        int nbPaquet;
+        public Paquet()
+        {
+
+        }
+        public void creerPaquet()
+        {
+
+        }
    }
 }
