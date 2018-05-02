@@ -27,7 +27,7 @@ namespace Partie
 
       public string imgCarte
       {
-         get { return string.Format("{0}_{1}.jpg", figure, type); }
+         get { return string.Format("{0}_{1}.png", figure, type); }
       }
 
       public int Valeur
