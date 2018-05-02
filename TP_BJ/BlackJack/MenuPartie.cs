@@ -16,5 +16,45 @@ namespace Partie
       {
          InitializeComponent();
       }
-   }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            lblNom.Visible = true;
+            txtNom.Visible = true;
+            btnCreer.Visible = true;
+            btnRejoindre.Visible = true;
+            txtIP.Visible = false;
+            btnConnection.Visible = false;
+        }
+
+        private void btnCreer_Click(object sender, EventArgs e)
+        {
+            lblNom.Visible = false;
+            txtNom.Visible = false;
+            btnCreer.Visible = false;
+            btnRejoindre.Visible = false;
+            cmbJoueur.Visible = true;
+            btnHeberger.Visible = true;
+        }
+
+        private void btnHeberger_Click(object sender, EventArgs e)
+        {
+            lblNom.Visible = true;
+            txtNom.Visible = true;
+            btnCreer.Visible = true;
+            btnRejoindre.Visible = true;
+            cmbJoueur.Visible = false;
+            btnHeberger.Visible = false;
+        }
+
+        private void btnRejoindre_Click(object sender, EventArgs e)
+        {
+            lblNom.Visible = false;
+            txtNom.Visible = false;
+            btnCreer.Visible = false;
+            btnRejoindre.Visible = false;
+            txtIP.Visible = true;
+            btnConnection.Visible = true;
+        }
+    }
 }

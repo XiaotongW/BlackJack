@@ -1,0 +1,7 @@
+C:\Users\Utilisateur\Desktop\BlackJack\TP_BJ\BlackJack\bin\Debug\Partie.exe.config
+C:\Users\Utilisateur\Desktop\BlackJack\TP_BJ\BlackJack\bin\Debug\Partie.exe
+C:\Users\Utilisateur\Desktop\BlackJack\TP_BJ\BlackJack\bin\Debug\Partie.pdb
+C:\Users\Utilisateur\Desktop\BlackJack\TP_BJ\BlackJack\obj\Debug\TPFinal.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\BlackJack\TP_BJ\BlackJack\obj\Debug\TPFinal.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.exe
+C:\Users\Utilisateur\Desktop\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.pdb

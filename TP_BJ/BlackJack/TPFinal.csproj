@@ -68,9 +68,191 @@
       <DependentUpon>PartieForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RessImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RessImages.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MenuPartie.resx">
+      <DependentUpon>MenuPartie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RessImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RessImages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13_Carreau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13_Coeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13_Pique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13_Trefle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_blackjack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rideau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_blackjack.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
