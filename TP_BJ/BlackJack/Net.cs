@@ -14,7 +14,7 @@ namespace Partie
 	{
 		const int Port = 8000;
 		TcpListener Listener1, Listener2, Listener3, Listener4;
-
+		TcpClient Client;
 		NetworkStream nsClient, nsJ1, nsJ2, nsJ3, nsJ4;
 		Socket socketJ1, socketJ2, socketJ3, socketJ4;
 		StreamReader readJ1, readJ2, readJ3, readJ4;
@@ -40,30 +40,27 @@ namespace Partie
 			}
 		}
 
-		public void Host()
+		public void Host(int nbJoueurs)
 		{
-
-			for (int i = 4; i > 0; i--)
+			switch (i)
 			{
-				switch (i)
-				{
-					case 4:
-						Listener4 = new TcpListener(AddrIP, Port);
-						socketJ4 = Listener4.AcceptSocket();
-						break;
-					case 3:
-						Listener3 = new TcpListener(AddrIP, Port);
-						socketJ3 = Listener3.AcceptSocket();
-						break;
-					case 2:
-						Listener2 = new TcpListener(AddrIP, Port);
-						socketJ2 = Listener2.AcceptSocket();
-						break;
-					case 1:
-						Listener1 = new TcpListener(AddrIP, Port);
-						socketJ1 = Listener1.AcceptSocket();
-						break;
-				}
+				case 4:
+					Listener4 = new TcpListener(AddrIP, Port);
+					Listener4.Start()
+					socketJ4 = Listener4.AcceptSocket();
+					break;
+				case 3:
+					Listener3 = new TcpListener(AddrIP, Port);
+					socketJ3 = Listener3.AcceptSocket();
+					break;
+				case 2:
+					Listener2 = new TcpListener(AddrIP, Port);
+					socketJ2 = Listener2.AcceptSocket();
+					break;
+				case 1:
+					Listener1 = new TcpListener(AddrIP, Port);
+					socketJ1 = Listener1.AcceptSocket();
+					break;
 			}
 		}
 		public void envoyerTous(string message)
