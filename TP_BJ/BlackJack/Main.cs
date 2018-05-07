@@ -18,8 +18,18 @@ namespace Partie
         {
             if (listCarte.Count < 5)
             {
+                newCarte = new Cartes(newCarte.Type,newCarte.Valeur,calculerSomme());
                 listCarte.Add(newCarte);
             }
+        }
+        public int calculerSomme()
+        {
+                int somme = 0;
+                for (int i= 0; i < listCarte.Count; i++)
+                {
+                    somme = listCarte.ElementAt<Cartes>(i).Valeur;
+                }
+            return somme;
         }
         public void resetMain()
         {

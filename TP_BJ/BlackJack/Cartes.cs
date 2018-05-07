@@ -29,6 +29,11 @@ namespace Partie
       {
          get { return string.Format("{0}_{1}.png", figure, type); }
       }
+	  
+	  public string Type
+      {
+         get { return type; }
+      } 
 
       public int Valeur
       {
