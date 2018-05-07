@@ -9,13 +9,13 @@ namespace Partie
 {
    class BlackJack
    {
-     
       static void Main(string[] args)
       {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(mainForm: new MenuPartie());
-            
+			NetClient Client = new NetClient();
+			Application.Run(mainForm: new MenuPartie());
+			
       }
    }
 }
