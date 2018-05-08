@@ -81,6 +81,9 @@
     <EmbeddedResource Include="MenuPartie.resx">
       <DependentUpon>MenuPartie.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PartieForm.resx">
+      <DependentUpon>PartieForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RessImages.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>RessImages.Designer.cs</LastGenOutput>
