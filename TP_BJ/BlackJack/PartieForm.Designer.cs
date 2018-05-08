@@ -28,20 +28,630 @@
       /// </summary>
       private void InitializeComponent()
       {
+            this.img_C1_J1 = new System.Windows.Forms.PictureBox();
+            this.img_C2_J1 = new System.Windows.Forms.PictureBox();
+            this.img_C3_J1 = new System.Windows.Forms.PictureBox();
+            this.img_C4_J1 = new System.Windows.Forms.PictureBox();
+            this.img_C5_J1 = new System.Windows.Forms.PictureBox();
+            this.img_C5_J2 = new System.Windows.Forms.PictureBox();
+            this.img_C4_J2 = new System.Windows.Forms.PictureBox();
+            this.img_C3_J2 = new System.Windows.Forms.PictureBox();
+            this.img_C2_J2 = new System.Windows.Forms.PictureBox();
+            this.img_C1_J2 = new System.Windows.Forms.PictureBox();
+            this.img_C5_J3 = new System.Windows.Forms.PictureBox();
+            this.img_C4_J3 = new System.Windows.Forms.PictureBox();
+            this.img_C3_J3 = new System.Windows.Forms.PictureBox();
+            this.img_C2_J3 = new System.Windows.Forms.PictureBox();
+            this.img_C1_J3 = new System.Windows.Forms.PictureBox();
+            this.img_C5_J4 = new System.Windows.Forms.PictureBox();
+            this.img_C4_J4 = new System.Windows.Forms.PictureBox();
+            this.img_C3_J4 = new System.Windows.Forms.PictureBox();
+            this.img_C2_J4 = new System.Windows.Forms.PictureBox();
+            this.img_C1_J4 = new System.Windows.Forms.PictureBox();
+            this.img_C5_C = new System.Windows.Forms.PictureBox();
+            this.img_C4_C = new System.Windows.Forms.PictureBox();
+            this.img_C3_C = new System.Windows.Forms.PictureBox();
+            this.img_C2_C = new System.Windows.Forms.PictureBox();
+            this.img_C1_C = new System.Windows.Forms.PictureBox();
+            this.lb_Nom_J1 = new System.Windows.Forms.Label();
+            this.lb_Nom_J2 = new System.Windows.Forms.Label();
+            this.lb_Nom_J3 = new System.Windows.Forms.Label();
+            this.lb_Nom_J4 = new System.Windows.Forms.Label();
+            this.lb_Mise_J1 = new System.Windows.Forms.Label();
+            this.lb_Mise_J2 = new System.Windows.Forms.Label();
+            this.lb_Mise_J3 = new System.Windows.Forms.Label();
+            this.lb_Mise_J4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lst_feed = new System.Windows.Forms.ListBox();
+            this.btnHit = new System.Windows.Forms.Button();
+            this.btnStand = new System.Windows.Forms.Button();
+            this.grpJoueur = new System.Windows.Forms.GroupBox();
+            this.lbValeur = new System.Windows.Forms.Label();
+            this.lbtextValeur = new System.Windows.Forms.Label();
+            this.lb_Argent = new System.Windows.Forms.Label();
+            this.lbBank = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_C)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_C)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_C)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_C)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_C)).BeginInit();
+            this.grpJoueur.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // img_C1_J1
+            // 
+            this.img_C1_J1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C1_J1.Location = new System.Drawing.Point(13, 440);
+            this.img_C1_J1.Name = "img_C1_J1";
+            this.img_C1_J1.Size = new System.Drawing.Size(100, 147);
+            this.img_C1_J1.TabIndex = 0;
+            this.img_C1_J1.TabStop = false;
+            // 
+            // img_C2_J1
+            // 
+            this.img_C2_J1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C2_J1.Location = new System.Drawing.Point(43, 440);
+            this.img_C2_J1.Name = "img_C2_J1";
+            this.img_C2_J1.Size = new System.Drawing.Size(100, 147);
+            this.img_C2_J1.TabIndex = 1;
+            this.img_C2_J1.TabStop = false;
+            // 
+            // img_C3_J1
+            // 
+            this.img_C3_J1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C3_J1.Location = new System.Drawing.Point(75, 440);
+            this.img_C3_J1.Name = "img_C3_J1";
+            this.img_C3_J1.Size = new System.Drawing.Size(100, 147);
+            this.img_C3_J1.TabIndex = 2;
+            this.img_C3_J1.TabStop = false;
+            // 
+            // img_C4_J1
+            // 
+            this.img_C4_J1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C4_J1.Location = new System.Drawing.Point(108, 440);
+            this.img_C4_J1.Name = "img_C4_J1";
+            this.img_C4_J1.Size = new System.Drawing.Size(100, 147);
+            this.img_C4_J1.TabIndex = 3;
+            this.img_C4_J1.TabStop = false;
+            // 
+            // img_C5_J1
+            // 
+            this.img_C5_J1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C5_J1.Location = new System.Drawing.Point(138, 440);
+            this.img_C5_J1.Name = "img_C5_J1";
+            this.img_C5_J1.Size = new System.Drawing.Size(100, 147);
+            this.img_C5_J1.TabIndex = 4;
+            this.img_C5_J1.TabStop = false;
+            // 
+            // img_C5_J2
+            // 
+            this.img_C5_J2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C5_J2.Location = new System.Drawing.Point(468, 562);
+            this.img_C5_J2.Name = "img_C5_J2";
+            this.img_C5_J2.Size = new System.Drawing.Size(100, 147);
+            this.img_C5_J2.TabIndex = 9;
+            this.img_C5_J2.TabStop = false;
+            // 
+            // img_C4_J2
+            // 
+            this.img_C4_J2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C4_J2.Location = new System.Drawing.Point(438, 562);
+            this.img_C4_J2.Name = "img_C4_J2";
+            this.img_C4_J2.Size = new System.Drawing.Size(100, 147);
+            this.img_C4_J2.TabIndex = 8;
+            this.img_C4_J2.TabStop = false;
+            // 
+            // img_C3_J2
+            // 
+            this.img_C3_J2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C3_J2.Location = new System.Drawing.Point(405, 562);
+            this.img_C3_J2.Name = "img_C3_J2";
+            this.img_C3_J2.Size = new System.Drawing.Size(100, 147);
+            this.img_C3_J2.TabIndex = 7;
+            this.img_C3_J2.TabStop = false;
+            // 
+            // img_C2_J2
+            // 
+            this.img_C2_J2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C2_J2.Location = new System.Drawing.Point(373, 562);
+            this.img_C2_J2.Name = "img_C2_J2";
+            this.img_C2_J2.Size = new System.Drawing.Size(100, 147);
+            this.img_C2_J2.TabIndex = 6;
+            this.img_C2_J2.TabStop = false;
+            // 
+            // img_C1_J2
+            // 
+            this.img_C1_J2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C1_J2.Location = new System.Drawing.Point(343, 562);
+            this.img_C1_J2.Name = "img_C1_J2";
+            this.img_C1_J2.Size = new System.Drawing.Size(100, 147);
+            this.img_C1_J2.TabIndex = 5;
+            this.img_C1_J2.TabStop = false;
+            // 
+            // img_C5_J3
+            // 
+            this.img_C5_J3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C5_J3.Location = new System.Drawing.Point(828, 562);
+            this.img_C5_J3.Name = "img_C5_J3";
+            this.img_C5_J3.Size = new System.Drawing.Size(100, 147);
+            this.img_C5_J3.TabIndex = 14;
+            this.img_C5_J3.TabStop = false;
+            // 
+            // img_C4_J3
+            // 
+            this.img_C4_J3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C4_J3.Location = new System.Drawing.Point(798, 562);
+            this.img_C4_J3.Name = "img_C4_J3";
+            this.img_C4_J3.Size = new System.Drawing.Size(100, 147);
+            this.img_C4_J3.TabIndex = 13;
+            this.img_C4_J3.TabStop = false;
+            // 
+            // img_C3_J3
+            // 
+            this.img_C3_J3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C3_J3.Location = new System.Drawing.Point(765, 562);
+            this.img_C3_J3.Name = "img_C3_J3";
+            this.img_C3_J3.Size = new System.Drawing.Size(100, 147);
+            this.img_C3_J3.TabIndex = 12;
+            this.img_C3_J3.TabStop = false;
+            // 
+            // img_C2_J3
+            // 
+            this.img_C2_J3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C2_J3.Location = new System.Drawing.Point(733, 562);
+            this.img_C2_J3.Name = "img_C2_J3";
+            this.img_C2_J3.Size = new System.Drawing.Size(100, 147);
+            this.img_C2_J3.TabIndex = 11;
+            this.img_C2_J3.TabStop = false;
+            // 
+            // img_C1_J3
+            // 
+            this.img_C1_J3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C1_J3.Location = new System.Drawing.Point(703, 562);
+            this.img_C1_J3.Name = "img_C1_J3";
+            this.img_C1_J3.Size = new System.Drawing.Size(100, 147);
+            this.img_C1_J3.TabIndex = 10;
+            this.img_C1_J3.TabStop = false;
+            // 
+            // img_C5_J4
+            // 
+            this.img_C5_J4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C5_J4.Location = new System.Drawing.Point(1167, 440);
+            this.img_C5_J4.Name = "img_C5_J4";
+            this.img_C5_J4.Size = new System.Drawing.Size(100, 147);
+            this.img_C5_J4.TabIndex = 19;
+            this.img_C5_J4.TabStop = false;
+            // 
+            // img_C4_J4
+            // 
+            this.img_C4_J4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C4_J4.Location = new System.Drawing.Point(1137, 440);
+            this.img_C4_J4.Name = "img_C4_J4";
+            this.img_C4_J4.Size = new System.Drawing.Size(100, 147);
+            this.img_C4_J4.TabIndex = 18;
+            this.img_C4_J4.TabStop = false;
+            // 
+            // img_C3_J4
+            // 
+            this.img_C3_J4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C3_J4.Location = new System.Drawing.Point(1104, 440);
+            this.img_C3_J4.Name = "img_C3_J4";
+            this.img_C3_J4.Size = new System.Drawing.Size(100, 147);
+            this.img_C3_J4.TabIndex = 17;
+            this.img_C3_J4.TabStop = false;
+            // 
+            // img_C2_J4
+            // 
+            this.img_C2_J4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C2_J4.Location = new System.Drawing.Point(1072, 440);
+            this.img_C2_J4.Name = "img_C2_J4";
+            this.img_C2_J4.Size = new System.Drawing.Size(100, 147);
+            this.img_C2_J4.TabIndex = 16;
+            this.img_C2_J4.TabStop = false;
+            // 
+            // img_C1_J4
+            // 
+            this.img_C1_J4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C1_J4.Location = new System.Drawing.Point(1042, 440);
+            this.img_C1_J4.Name = "img_C1_J4";
+            this.img_C1_J4.Size = new System.Drawing.Size(100, 147);
+            this.img_C1_J4.TabIndex = 15;
+            this.img_C1_J4.TabStop = false;
+            // 
+            // img_C5_C
+            // 
+            this.img_C5_C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C5_C.Location = new System.Drawing.Point(838, 112);
+            this.img_C5_C.Name = "img_C5_C";
+            this.img_C5_C.Size = new System.Drawing.Size(100, 147);
+            this.img_C5_C.TabIndex = 24;
+            this.img_C5_C.TabStop = false;
+            // 
+            // img_C4_C
+            // 
+            this.img_C4_C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C4_C.Location = new System.Drawing.Point(714, 112);
+            this.img_C4_C.Name = "img_C4_C";
+            this.img_C4_C.Size = new System.Drawing.Size(100, 147);
+            this.img_C4_C.TabIndex = 23;
+            this.img_C4_C.TabStop = false;
+            // 
+            // img_C3_C
+            // 
+            this.img_C3_C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C3_C.Location = new System.Drawing.Point(591, 112);
+            this.img_C3_C.Name = "img_C3_C";
+            this.img_C3_C.Size = new System.Drawing.Size(100, 147);
+            this.img_C3_C.TabIndex = 22;
+            this.img_C3_C.TabStop = false;
+            // 
+            // img_C2_C
+            // 
+            this.img_C2_C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C2_C.Location = new System.Drawing.Point(468, 112);
+            this.img_C2_C.Name = "img_C2_C";
+            this.img_C2_C.Size = new System.Drawing.Size(100, 147);
+            this.img_C2_C.TabIndex = 21;
+            this.img_C2_C.TabStop = false;
+            // 
+            // img_C1_C
+            // 
+            this.img_C1_C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.img_C1_C.Location = new System.Drawing.Point(343, 112);
+            this.img_C1_C.Name = "img_C1_C";
+            this.img_C1_C.Size = new System.Drawing.Size(100, 147);
+            this.img_C1_C.TabIndex = 20;
+            this.img_C1_C.TabStop = false;
+            // 
+            // lb_Nom_J1
+            // 
+            this.lb_Nom_J1.AutoSize = true;
+            this.lb_Nom_J1.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Nom_J1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Nom_J1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lb_Nom_J1.Location = new System.Drawing.Point(36, 379);
+            this.lb_Nom_J1.Name = "lb_Nom_J1";
+            this.lb_Nom_J1.Size = new System.Drawing.Size(107, 29);
+            this.lb_Nom_J1.TabIndex = 25;
+            this.lb_Nom_J1.Text = "Joueur1";
+            this.lb_Nom_J1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lb_Nom_J2
+            // 
+            this.lb_Nom_J2.AutoSize = true;
+            this.lb_Nom_J2.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Nom_J2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Nom_J2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lb_Nom_J2.Location = new System.Drawing.Point(366, 501);
+            this.lb_Nom_J2.Name = "lb_Nom_J2";
+            this.lb_Nom_J2.Size = new System.Drawing.Size(107, 29);
+            this.lb_Nom_J2.TabIndex = 26;
+            this.lb_Nom_J2.Text = "Joueur2";
+            this.lb_Nom_J2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lb_Nom_J3
+            // 
+            this.lb_Nom_J3.AutoSize = true;
+            this.lb_Nom_J3.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Nom_J3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Nom_J3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lb_Nom_J3.Location = new System.Drawing.Point(726, 501);
+            this.lb_Nom_J3.Name = "lb_Nom_J3";
+            this.lb_Nom_J3.Size = new System.Drawing.Size(107, 29);
+            this.lb_Nom_J3.TabIndex = 27;
+            this.lb_Nom_J3.Text = "Joueur3";
+            this.lb_Nom_J3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lb_Nom_J4
+            // 
+            this.lb_Nom_J4.AutoSize = true;
+            this.lb_Nom_J4.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Nom_J4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Nom_J4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lb_Nom_J4.Location = new System.Drawing.Point(1065, 379);
+            this.lb_Nom_J4.Name = "lb_Nom_J4";
+            this.lb_Nom_J4.Size = new System.Drawing.Size(107, 29);
+            this.lb_Nom_J4.TabIndex = 28;
+            this.lb_Nom_J4.Text = "Joueur4";
+            this.lb_Nom_J4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lb_Mise_J1
+            // 
+            this.lb_Mise_J1.AutoSize = true;
+            this.lb_Mise_J1.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mise_J1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mise_J1.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lb_Mise_J1.Location = new System.Drawing.Point(8, 408);
+            this.lb_Mise_J1.Name = "lb_Mise_J1";
+            this.lb_Mise_J1.Size = new System.Drawing.Size(146, 29);
+            this.lb_Mise_J1.TabIndex = 29;
+            this.lb_Mise_J1.Text = "Mise : 100$";
+            this.lb_Mise_J1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lb_Mise_J2
+            // 
+            this.lb_Mise_J2.AutoSize = true;
+            this.lb_Mise_J2.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mise_J2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mise_J2.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lb_Mise_J2.Location = new System.Drawing.Point(338, 530);
+            this.lb_Mise_J2.Name = "lb_Mise_J2";
+            this.lb_Mise_J2.Size = new System.Drawing.Size(146, 29);
+            this.lb_Mise_J2.TabIndex = 30;
+            this.lb_Mise_J2.Text = "Mise : 100$";
+            this.lb_Mise_J2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lb_Mise_J3
+            // 
+            this.lb_Mise_J3.AutoSize = true;
+            this.lb_Mise_J3.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mise_J3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mise_J3.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lb_Mise_J3.Location = new System.Drawing.Point(698, 530);
+            this.lb_Mise_J3.Name = "lb_Mise_J3";
+            this.lb_Mise_J3.Size = new System.Drawing.Size(146, 29);
+            this.lb_Mise_J3.TabIndex = 31;
+            this.lb_Mise_J3.Text = "Mise : 100$";
+            this.lb_Mise_J3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lb_Mise_J4
+            // 
+            this.lb_Mise_J4.AutoSize = true;
+            this.lb_Mise_J4.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mise_J4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mise_J4.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lb_Mise_J4.Location = new System.Drawing.Point(1037, 408);
+            this.lb_Mise_J4.Name = "lb_Mise_J4";
+            this.lb_Mise_J4.Size = new System.Drawing.Size(146, 29);
+            this.lb_Mise_J4.TabIndex = 32;
+            this.lb_Mise_J4.Text = "Mise : 100$";
+            this.lb_Mise_J4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Lime;
+            this.label1.Location = new System.Drawing.Point(404, 300);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(481, 69);
+            this.label1.TabIndex = 33;
+            this.label1.Text = "Tour de Joueur1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lst_feed
+            // 
+            this.lst_feed.BackColor = System.Drawing.Color.Black;
+            this.lst_feed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lst_feed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lst_feed.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.lst_feed.FormattingEnabled = true;
+            this.lst_feed.ItemHeight = 20;
+            this.lst_feed.Location = new System.Drawing.Point(8, 6);
+            this.lst_feed.Name = "lst_feed";
+            this.lst_feed.Size = new System.Drawing.Size(276, 262);
+            this.lst_feed.TabIndex = 34;
+            // 
+            // btnHit
+            // 
+            this.btnHit.Location = new System.Drawing.Point(991, 674);
+            this.btnHit.Name = "btnHit";
+            this.btnHit.Size = new System.Drawing.Size(113, 78);
+            this.btnHit.TabIndex = 35;
+            this.btnHit.Text = "Hit";
+            this.btnHit.UseVisualStyleBackColor = true;
+            // 
+            // btnStand
+            // 
+            this.btnStand.Location = new System.Drawing.Point(1137, 674);
+            this.btnStand.Name = "btnStand";
+            this.btnStand.Size = new System.Drawing.Size(113, 78);
+            this.btnStand.TabIndex = 36;
+            this.btnStand.Text = "Stand";
+            this.btnStand.UseVisualStyleBackColor = true;
+            // 
+            // grpJoueur
+            // 
+            this.grpJoueur.BackColor = System.Drawing.Color.Transparent;
+            this.grpJoueur.Controls.Add(this.lbValeur);
+            this.grpJoueur.Controls.Add(this.lbtextValeur);
+            this.grpJoueur.Controls.Add(this.lb_Argent);
+            this.grpJoueur.Controls.Add(this.lbBank);
+            this.grpJoueur.Location = new System.Drawing.Point(13, 640);
+            this.grpJoueur.Name = "grpJoueur";
+            this.grpJoueur.Size = new System.Drawing.Size(271, 136);
+            this.grpJoueur.TabIndex = 37;
+            this.grpJoueur.TabStop = false;
+            // 
+            // lbValeur
+            // 
+            this.lbValeur.AutoSize = true;
+            this.lbValeur.BackColor = System.Drawing.Color.Black;
+            this.lbValeur.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbValeur.ForeColor = System.Drawing.Color.Turquoise;
+            this.lbValeur.Location = new System.Drawing.Point(193, 65);
+            this.lbValeur.Name = "lbValeur";
+            this.lbValeur.Size = new System.Drawing.Size(32, 24);
+            this.lbValeur.TabIndex = 3;
+            this.lbValeur.Text = "19";
+            // 
+            // lbtextValeur
+            // 
+            this.lbtextValeur.AutoSize = true;
+            this.lbtextValeur.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbtextValeur.ForeColor = System.Drawing.Color.Turquoise;
+            this.lbtextValeur.Location = new System.Drawing.Point(6, 65);
+            this.lbtextValeur.Name = "lbtextValeur";
+            this.lbtextValeur.Size = new System.Drawing.Size(188, 24);
+            this.lbtextValeur.TabIndex = 2;
+            this.lbtextValeur.Text = "Valeur des Cartes :";
+            // 
+            // lb_Argent
+            // 
+            this.lb_Argent.AutoSize = true;
+            this.lb_Argent.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Argent.ForeColor = System.Drawing.Color.Lime;
+            this.lb_Argent.Location = new System.Drawing.Point(103, 18);
+            this.lb_Argent.Name = "lb_Argent";
+            this.lb_Argent.Size = new System.Drawing.Size(83, 32);
+            this.lb_Argent.TabIndex = 1;
+            this.lb_Argent.Text = "500$";
+            // 
+            // lbBank
+            // 
+            this.lbBank.AutoSize = true;
+            this.lbBank.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBank.ForeColor = System.Drawing.Color.Lime;
+            this.lbBank.Location = new System.Drawing.Point(6, 18);
+            this.lbBank.Name = "lbBank";
+            this.lbBank.Size = new System.Drawing.Size(101, 32);
+            this.lbBank.TabIndex = 0;
+            this.lbBank.Text = "Bank :";
             // 
             // PartieForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Partie.RessImages.table_blackjack;
-            this.ClientSize = new System.Drawing.Size(1281, 799);
+            this.ClientSize = new System.Drawing.Size(1281, 797);
+            this.Controls.Add(this.grpJoueur);
+            this.Controls.Add(this.btnStand);
+            this.Controls.Add(this.btnHit);
+            this.Controls.Add(this.lst_feed);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lb_Mise_J4);
+            this.Controls.Add(this.lb_Mise_J3);
+            this.Controls.Add(this.lb_Mise_J2);
+            this.Controls.Add(this.lb_Mise_J1);
+            this.Controls.Add(this.lb_Nom_J4);
+            this.Controls.Add(this.lb_Nom_J3);
+            this.Controls.Add(this.lb_Nom_J2);
+            this.Controls.Add(this.lb_Nom_J1);
+            this.Controls.Add(this.img_C5_C);
+            this.Controls.Add(this.img_C4_C);
+            this.Controls.Add(this.img_C3_C);
+            this.Controls.Add(this.img_C2_C);
+            this.Controls.Add(this.img_C1_C);
+            this.Controls.Add(this.img_C5_J4);
+            this.Controls.Add(this.img_C4_J4);
+            this.Controls.Add(this.img_C3_J4);
+            this.Controls.Add(this.img_C2_J4);
+            this.Controls.Add(this.img_C1_J4);
+            this.Controls.Add(this.img_C5_J3);
+            this.Controls.Add(this.img_C4_J3);
+            this.Controls.Add(this.img_C3_J3);
+            this.Controls.Add(this.img_C2_J3);
+            this.Controls.Add(this.img_C1_J3);
+            this.Controls.Add(this.img_C5_J2);
+            this.Controls.Add(this.img_C4_J2);
+            this.Controls.Add(this.img_C3_J2);
+            this.Controls.Add(this.img_C2_J2);
+            this.Controls.Add(this.img_C1_J2);
+            this.Controls.Add(this.img_C5_J1);
+            this.Controls.Add(this.img_C4_J1);
+            this.Controls.Add(this.img_C3_J1);
+            this.Controls.Add(this.img_C2_J1);
+            this.Controls.Add(this.img_C1_J1);
+            this.MaximumSize = new System.Drawing.Size(1299, 844);
+            this.MinimumSize = new System.Drawing.Size(1299, 844);
             this.Name = "PartieForm";
             this.Text = "PartieForm";
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_J4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_J4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_J4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_J4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_J4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C5_C)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C4_C)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C3_C)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C2_C)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_C1_C)).EndInit();
+            this.grpJoueur.ResumeLayout(false);
+            this.grpJoueur.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
       }
 
-      #endregion
-   }
+        #endregion
+
+        private System.Windows.Forms.PictureBox img_C1_J1;
+        private System.Windows.Forms.PictureBox img_C2_J1;
+        private System.Windows.Forms.PictureBox img_C3_J1;
+        private System.Windows.Forms.PictureBox img_C4_J1;
+        private System.Windows.Forms.PictureBox img_C5_J1;
+        private System.Windows.Forms.PictureBox img_C5_J2;
+        private System.Windows.Forms.PictureBox img_C4_J2;
+        private System.Windows.Forms.PictureBox img_C3_J2;
+        private System.Windows.Forms.PictureBox img_C2_J2;
+        private System.Windows.Forms.PictureBox img_C1_J2;
+        private System.Windows.Forms.PictureBox img_C5_J3;
+        private System.Windows.Forms.PictureBox img_C4_J3;
+        private System.Windows.Forms.PictureBox img_C3_J3;
+        private System.Windows.Forms.PictureBox img_C2_J3;
+        private System.Windows.Forms.PictureBox img_C1_J3;
+        private System.Windows.Forms.PictureBox img_C5_J4;
+        private System.Windows.Forms.PictureBox img_C4_J4;
+        private System.Windows.Forms.PictureBox img_C3_J4;
+        private System.Windows.Forms.PictureBox img_C2_J4;
+        private System.Windows.Forms.PictureBox img_C1_J4;
+        private System.Windows.Forms.PictureBox img_C5_C;
+        private System.Windows.Forms.PictureBox img_C4_C;
+        private System.Windows.Forms.PictureBox img_C3_C;
+        private System.Windows.Forms.PictureBox img_C2_C;
+        private System.Windows.Forms.PictureBox img_C1_C;
+        private System.Windows.Forms.Label lb_Nom_J1;
+        private System.Windows.Forms.Label lb_Nom_J2;
+        private System.Windows.Forms.Label lb_Nom_J3;
+        private System.Windows.Forms.Label lb_Nom_J4;
+        private System.Windows.Forms.Label lb_Mise_J1;
+        private System.Windows.Forms.Label lb_Mise_J2;
+        private System.Windows.Forms.Label lb_Mise_J3;
+        private System.Windows.Forms.Label lb_Mise_J4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox lst_feed;
+        private System.Windows.Forms.Button btnHit;
+        private System.Windows.Forms.Button btnStand;
+        private System.Windows.Forms.GroupBox grpJoueur;
+        private System.Windows.Forms.Label lbValeur;
+        private System.Windows.Forms.Label lbtextValeur;
+        private System.Windows.Forms.Label lb_Argent;
+        private System.Windows.Forms.Label lbBank;
+    }
 }
