@@ -25,5 +25,15 @@ namespace Partie
             formPartie = new PartieForm();
             formPartie.Show();
         }
+
+        public void EnvoyerCarte()
+        {
+
+        }
+
+        public void RecevoirCarte()
+        {
+
+        }
    }
 }

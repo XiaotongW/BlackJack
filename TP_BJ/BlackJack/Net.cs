@@ -17,10 +17,10 @@ namespace Partie
 		TcpClient client;
 		NetworkStream nsFlux;
 		Socket socketClient;
-		StreamReader readJ2, readJ3, readJ4; // Writer Serveur
+		StreamReader readJ2, readJ3, readJ4; // Reader Serveur
 		StreamWriter writeJ2, writeJ3, writeJ4; // Writer Serveur
 		StreamReader reader; // Reader Client
-		StreamWriter writer; // Reader Client
+		StreamWriter writer; // writer Client
 		IPAddress AddrIP;
 		string stringIP;
 		int NbJoueur;
@@ -35,7 +35,7 @@ namespace Partie
 			listener.Start();
 			int nbConnect = 2;
 
-			while (nbConnect != NbJoueur)
+			while (nbConnect != NbJoueur) // Boucle jusqu'a ce que tous les joueur soient connecter 
 			{
 				socketClient = listener.AcceptSocket();
 				if (socketClient.Connected)
@@ -46,17 +46,17 @@ namespace Partie
 						case 2:
 							readJ2 = new StreamReader(nsFlux);
 							writeJ2 = new StreamWriter(nsFlux);
-							envoyerMessage(nbConnect.ToString(), nbConnect);
+							envoyerMessage(nbConnect.ToString(), nbConnect); // Envoi L'ID au joueur 2
 							break;
 						case 3:
 							readJ3 = new StreamReader(nsFlux);
 							writeJ3 = new StreamWriter(nsFlux);
-							envoyerMessage(nbConnect.ToString(), nbConnect);
+							envoyerMessage(nbConnect.ToString(), nbConnect); // Envoi L'ID au joueur 3
 							break;
 						case 4:
 							readJ4 = new StreamReader(nsFlux);
 							writeJ4 = new StreamWriter(nsFlux);
-							envoyerMessage(nbConnect.ToString(), nbConnect);
+							envoyerMessage(nbConnect.ToString(), nbConnect); // Envoi L'ID au joueur 4
 							break;
 					}
 					nbConnect++;
@@ -75,9 +75,9 @@ namespace Partie
 				writer = new StreamWriter(nsFlux);
 				int.TryParse(recevoirMessage(), out IDJoueur);
 			}
-			catch (Exception e)
+			catch (Exception ex)
 			{
-				MessageBox.Show(e.ToString());
+				MessageBox.Show(ex.ToString());
 			}
 		}
 

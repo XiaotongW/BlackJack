@@ -28,9 +28,18 @@
       /// </summary>
       private void InitializeComponent()
       {
-         this.components = new System.ComponentModel.Container();
-         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.Text = "PartieForm";
+            this.SuspendLayout();
+            // 
+            // PartieForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Partie.RessImages.table_blackjack;
+            this.ClientSize = new System.Drawing.Size(1281, 799);
+            this.Name = "PartieForm";
+            this.Text = "PartieForm";
+            this.ResumeLayout(false);
+
       }
 
       #endregion
