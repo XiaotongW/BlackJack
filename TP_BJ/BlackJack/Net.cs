@@ -17,8 +17,8 @@ namespace Partie
 		TcpClient client;
 		NetworkStream nsFlux;
 		Socket socketClient;
-		//StreamReader readJ2, readJ3, readJ4;
-		//StreamWriter writeJ2, writeJ3, writeJ4;
+		StreamReader readJ2, readJ3, readJ4;
+		StreamWriter writeJ2, writeJ3, writeJ4;
 		StreamReader reader;
 		StreamWriter writer;
 		IPAddress AddrIP;
@@ -27,31 +27,55 @@ namespace Partie
 		bool IsHost;
 		int IDJoueur;
 
-		public Net(bool IsHost, int nbJoueurs)
+		public Net(bool IsHost, int nbJoueurs) // Crée Host
 		{
-			listener = new TcpListener(IPAddress.Any, Port);
-			listener.Start();
-			socketClient = listener.AcceptSocket();
-			if (socketClient.Connected)
-			{
-				nsFlux = new NetworkStream(socketClient.Accept());
-				reader = new StreamReader(nsFlux);
-				writer = new StreamWriter(nsFlux);
-			}
-
 			this.IsHost = IsHost;
 			NbJoueur = nbJoueurs;
+			listener = new TcpListener(IPAddress.Any, Port);
+			listener.Start();
+			int nbConnect = 1;
+			do
+			{
+				socketClient = listener.AcceptSocket();
+				nsFlux = new NetworkStream(socketClient);
+				if (socketClient.Connected)
+				{
+					switch (nbConnect)
+					{
+						case 1:
+							readJ2 = new StreamReader(nsFlux);
+							writeJ2 = new StreamWriter(nsFlux);
+							envoyerMessage((nbConnect + 1).ToString(), nbConnect + 1);
+							break;
+						case 2:
+							readJ3 = new StreamReader(nsFlux);
+							writeJ3 = new StreamWriter(nsFlux);
+							envoyerMessage((nbConnect + 1).ToString(), nbConnect + 1);
+							break;
+						case 3:
+							readJ4 = new StreamReader(nsFlux);
+							writeJ4 = new StreamWriter(nsFlux);
+							envoyerMessage((nbConnect + 1).ToString(), nbConnect + 1);
+							break;
+					}
+					nbConnect++;
+				}
+
+			} while (nbConnect != NbJoueur);
+
 		}
-		public Net()
+		public Net(string IPaddr) // crée Client
 		{
 
 			try
 			{
+				IP = IPaddr;
 				client = new TcpClient(stringIP, Port);
 				IsHost = false;
 				nsFlux = client.GetStream();
 				reader = new StreamReader(nsFlux);
 				writer = new StreamWriter(nsFlux);
+				int.TryParse(recevoirMessage(), out IDJoueur);
 
 			}
 			catch (Exception e)
@@ -77,12 +101,32 @@ namespace Partie
 			}
 		}
 
-		public void Host(int nbJoueurs)
-		{
-
-		}
-
 		public void envoyerMessage(string message, int IDJoueur)
+		{
+			try
+			{
+				switch (IDJoueur)
+				{
+					case 2:
+						writeJ2.WriteLine(message);
+						writeJ2.Flush();
+						break;
+					case 3:
+						writeJ3.WriteLine(message);
+						writeJ3.Flush();
+						break;
+					case 4:
+						writeJ4.WriteLine(message);
+						writeJ4.Flush();
+						break;
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.ToString());
+			}
+		}
+		public void envoyerMessage(string message)
 		{
 			try
 			{
@@ -99,7 +143,7 @@ namespace Partie
 			}
 		}
 
-		public string recevoirMessage(int IDJoueur)
+		public string recevoirMessage()
 		{
 			string leMessage = "";
 			try
@@ -111,7 +155,7 @@ namespace Partie
 				MessageBox.Show(e.ToString());
 				reader.Close();
 			}
-
+			MessageBox.Show(leMessage);
 			return leMessage;
 		}
 	}
