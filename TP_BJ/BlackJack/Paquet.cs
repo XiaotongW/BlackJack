@@ -38,7 +38,7 @@ namespace Partie
         }
         public Cartes PigerCarte()
         {
-            int indRand = rand.Next(52 * nbPaquet);
+            int indRand = rand.Next(listPaquet.Count);
             Cartes TmpCarte = listPaquet.ElementAt<Cartes>(indRand);
             listPaquet.RemoveAt(indRand);
             return TmpCarte;
