@@ -14,13 +14,11 @@ namespace Partie
             listCarte = new List<Cartes>();
         }
 
-        public void ajouterCarte(Cartes newCarte)
+        public void ajouterCarte(int figure, string type)
         {
             if (listCarte.Count < 5)
-            {
-                newCarte = new Cartes(newCarte.Type,newCarte.Valeur,calculerSomme());
-                listCarte.Add(newCarte);
-            }
+                listCarte.Add(new Cartes(type,figure,calculerSomme()));
+            
         }
         public int calculerSomme()
         {
