@@ -583,6 +583,16 @@ namespace Partie {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HIT {
+            get {
+                object obj = ResourceManager.GetObject("HIT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu_blackjack {
             get {
                 object obj = ResourceManager.GetObject("menu_blackjack", resourceCulture);
@@ -596,6 +606,16 @@ namespace Partie {
         internal static System.Drawing.Bitmap rideau {
             get {
                 object obj = ResourceManager.GetObject("rideau", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stand {
+            get {
+                object obj = ResourceManager.GetObject("Stand", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -257,5 +257,11 @@
   <ItemGroup>
     <None Include="Resources\table_blackjack.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HIT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stand.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
