@@ -13,7 +13,6 @@ namespace Partie
       {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-			NetClient Client = new NetClient();
 			Application.Run(mainForm: new MenuPartie());
 			
       }

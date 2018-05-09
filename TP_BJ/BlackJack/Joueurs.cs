@@ -10,12 +10,14 @@ namespace Partie
    class Joueurs
    {
         string nomJoueur;
-        string idJoueur;
+        //string idJoueur;
         Main mainJoueur;
-        public Joueurs(string nom, string id)
+		Net Network;
+        public Joueurs(string nom)
         {
             nomJoueur = nom;
-            idJoueur = id;
+			//idJoueur = id;
+			//Network = new Net();
             mainJoueur = new Main();
         }
     }
