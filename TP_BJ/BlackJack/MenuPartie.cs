@@ -35,6 +35,7 @@ namespace Partie
             btnRejoindre.Visible = false;
             cmbJoueur.Visible = true;
             btnHeberger.Visible = true;
+            btnOption.Visible = true;
         }
 
         private void btnHeberger_Click(object sender, EventArgs e)
