@@ -7,23 +7,6 @@ using System.Threading;
 
 namespace Partie
 {
-<<<<<<< HEAD
-   
-   class Joueurs
-   {
-        string nomJoueur;
-        //string idJoueur;
-        Main mainJoueur;
-		Net Network;
-        public Joueurs(string nom)
-        {
-            nomJoueur = nom;
-			//idJoueur = id;
-			//Network = new Net();
-            mainJoueur = new Main();
-        }
-    }
-=======
 
 	class Joueurs
 	{
@@ -67,5 +50,4 @@ namespace Partie
 			mainJoueur.ajouterCarte(int.Parse(infoCarte[1]),infoCarte[2]);
 		}
 	}
->>>>>>> 9c2c5961ecda68ce802e63ce9ebae2bacab5f2e0
 }
