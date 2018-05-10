@@ -1,4 +1,4 @@
-﻿namespace Partie
+﻿namespace BlackJack
 {
    partial class PartieForm
    {
@@ -569,7 +569,7 @@
 			// img_btnHit
 			// 
 			this.img_btnHit.BackColor = System.Drawing.Color.Transparent;
-			this.img_btnHit.Image = global::Partie.RessImages.HIT;
+			this.img_btnHit.Image = global::BlackJack.RessImages.HIT;
 			this.img_btnHit.Location = new System.Drawing.Point(1237, 809);
 			this.img_btnHit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.img_btnHit.Name = "img_btnHit";
@@ -581,7 +581,7 @@
 			// img_btnStand
 			// 
 			this.img_btnStand.BackColor = System.Drawing.Color.Transparent;
-			this.img_btnStand.Image = global::Partie.RessImages.Stand;
+			this.img_btnStand.Image = global::BlackJack.RessImages.Stand;
 			this.img_btnStand.Location = new System.Drawing.Point(1392, 809);
 			this.img_btnStand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.img_btnStand.Name = "img_btnStand";
@@ -594,7 +594,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackgroundImage = global::Partie.RessImages.table_blackjack;
+			this.BackgroundImage = global::BlackJack.RessImages.table_blackjack;
 			this.ClientSize = new System.Drawing.Size(1703, 970);
 			this.Controls.Add(this.img_btnStand);
 			this.Controls.Add(this.img_btnHit);

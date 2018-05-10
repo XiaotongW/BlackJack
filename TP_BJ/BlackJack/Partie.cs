@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Partie
+namespace BlackJack
 {
 	public class Partie
 	{
@@ -18,14 +18,14 @@ namespace Partie
 		{
 			TJoueur = new Joueurs[nbJoueur];
 			paquet = new Paquet(2);
-			formPartie = new PartieForm();
+			formPartie = new PartieForm(this);
 			formPartie.Show();
 		}
 
 		public Partie()//Counstrusteur pour client
 		{
 			TJoueur = new Joueurs[4];
-			formPartie = new PartieForm();
+			formPartie = new PartieForm(this);
 			formPartie.Show();
 		}
 

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Partie
+namespace BlackJack
 {
    public partial class PartieForm : Form
    {

@@ -8,7 +8,7 @@
 //using System.IO;
 //using System.Windows.Forms;
 
-namespace Partie
+namespace BlackJack
 { // A retirer du projet
 	class NetClient
 	{
