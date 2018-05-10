@@ -17,5 +17,10 @@ namespace BlackJack
       {
          InitializeComponent();
       }
-   }
+
+        private void PartieForm_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
