@@ -39,12 +39,17 @@ C:\Users\ordi\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJac
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\bin\Debug\Partie.exe.config
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\bin\Debug\Partie.exe
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\bin\Debug\Partie.pdb
-C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.MenuPartie.resources
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.RessImages.resources
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\TPFinal.csproj.GenerateResource.Cache
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\TPFinal.csproj.CoreCompileInputs.cache
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.exe
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.pdb
+<<<<<<< HEAD
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.PartieForm.resources
 C:\Users\Emile\Desktop\TPFinal\BlackJack\TP_BJ\BlackJack\obj\Debug\BlackJack.MenuPartie.resources
 C:\Users\Emile\Desktop\TPFinal\BlackJack\TP_BJ\BlackJack\obj\Debug\BlackJack.PartieForm.resources
+=======
+C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\BlackJack.MenuPartie.resources
+C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\BlackJack.PartieForm.resources
+C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\TPFinal.csprojResolveAssemblyReference.cache
+>>>>>>> f389ca7c56a1b9cd543f38ceb988e6dee731831f
