@@ -7,6 +7,10 @@ using System.Threading;
 
 namespace Partie
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 16141fb4472affc189c9f62b249ff71814cbdfc8
 	class Joueurs
 	{
 		Main mainJoueur;
