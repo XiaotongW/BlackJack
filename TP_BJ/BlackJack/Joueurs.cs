@@ -24,12 +24,16 @@ namespace BlackJack
 		public string Nom
 		{
 			get;
-			private set;
+			set;
 		}
 
 		public int ID
 		{
 			get { return netJoueur.ID; }
+		}
+		public Main main
+		{
+			get { return mainJoueur; }
 		}
 
 		public void JoindrePartie(string IPJoin)

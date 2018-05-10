@@ -13,7 +13,14 @@ namespace BlackJack
         {
             listCarte = new List<Cartes>();
         }
-
+		public Cartes this[int ind] 
+		{
+			get { return listCarte.ElementAt(ind); }
+		}
+		public int NbrCartes
+		{
+			get { return listCarte.Count; }
+		}
         public void ajouterCarte(int figure, string type)
         {
             if (listCarte.Count < 5)

@@ -571,7 +571,7 @@
 			this.img_btnHit.BackColor = System.Drawing.Color.Transparent;
 			this.img_btnHit.Image = global::BlackJack.RessImages.HIT;
 			this.img_btnHit.Location = new System.Drawing.Point(1237, 809);
-			this.img_btnHit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.img_btnHit.Margin = new System.Windows.Forms.Padding(4);
 			this.img_btnHit.Name = "img_btnHit";
 			this.img_btnHit.Size = new System.Drawing.Size(143, 133);
 			this.img_btnHit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -583,7 +583,7 @@
 			this.img_btnStand.BackColor = System.Drawing.Color.Transparent;
 			this.img_btnStand.Image = global::BlackJack.RessImages.Stand;
 			this.img_btnStand.Location = new System.Drawing.Point(1392, 809);
-			this.img_btnStand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.img_btnStand.Margin = new System.Windows.Forms.Padding(4);
 			this.img_btnStand.Name = "img_btnStand";
 			this.img_btnStand.Size = new System.Drawing.Size(143, 133);
 			this.img_btnStand.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

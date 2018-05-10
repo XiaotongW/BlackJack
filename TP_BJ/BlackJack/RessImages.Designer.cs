@@ -39,7 +39,7 @@ namespace BlackJack {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BlackJack.RessImages", typeof(RessImages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Partie.RessImages", typeof(RessImages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

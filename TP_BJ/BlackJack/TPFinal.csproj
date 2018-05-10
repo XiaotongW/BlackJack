@@ -87,6 +87,7 @@
     <EmbeddedResource Include="RessImages.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>RessImages.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>BlackJack</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
