@@ -7,18 +7,13 @@ using System.Threading;
 
 namespace BlackJack
 {
-	class Joueurs
+	public class Joueurs
 	{
-		Main mainJoueur;
-		Net netJoueur;
-		public delegate void AjouterCarte();
-		public AjouterCarte delegateAjoutCarte;
 
 		public Joueurs(string nom)
 		{
 			Nom = nom;
-			mainJoueur = new Main();
-			delegateAjoutCarte = new AjouterCarte(recevoirCarte);
+			Main = new Main();
 		}
 
 		public string Nom
@@ -31,26 +26,27 @@ namespace BlackJack
 		{
 			get { return netJoueur.ID; }
 		}
-		public Main main
+
+		public Net netJoueur
 		{
-			get { return mainJoueur; }
+			get;
+			private set;
+		}
+
+		public Main Main
+		{
+			get;
+			private set;
 		}
 
 		public void JoindrePartie(string IPJoin)
 		{
 			Thread threadJoin = new Thread(() => creeConnection(IPJoin));
 		}
+
 		private void creeConnection(string IPJoin)
 		{
 			netJoueur = new Net(IPJoin);
-		}
-
-		public void recevoirCarte()
-		{
-			// Methode appeler par le deleger AjouterCarte
-			string[] infoCarte; // message : IDJoueur;figureCarte;typeCarte
-			infoCarte =  netJoueur.recevoirMessage().Split(new char[1] {';'});
-			mainJoueur.ajouterCarte(int.Parse(infoCarte[1]),infoCarte[2]);
 		}
 	}
 }
