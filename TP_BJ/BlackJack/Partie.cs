@@ -11,6 +11,8 @@ namespace Partie
 		Joueurs[] TJoueur;
 		Paquet paquet;//paquet
 		PartieForm formPartie;
+		public delegate void RecevoirNomJoueur(string nomJoueur);
+		public RecevoirNomJoueur NomJoueur;
 
 		public Partie(int nbJoueur) // Constructeur pour host
 		{
@@ -29,7 +31,7 @@ namespace Partie
 
 		public void RecevoirNomJoueur()
 		{
-			
+			//IDJoueur;Nom Joueur
 		}
 		public void EnvoyerCarte()
 		{

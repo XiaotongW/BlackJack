@@ -12,7 +12,8 @@ namespace Partie
 {
    public partial class PartieForm : Form
    {
-      public PartieForm()
+		Partie partie;
+      public PartieForm(Partie partie)
       {
          InitializeComponent();
       }
