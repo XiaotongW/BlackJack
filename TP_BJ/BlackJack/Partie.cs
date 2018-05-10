@@ -11,10 +11,10 @@ namespace Partie
 		Joueurs[] TJoueur;
 		Paquet paquet;//paquet
 		PartieForm formPartie;
-		public delegate void RecevoirNomJoueur(string nomJoueur);
-		public RecevoirNomJoueur NomJoueur;
+		public delegate void RecevoirNom(string nomJoueur);
+		public RecevoirNom NomJoueur;
 
-		public Partie(int nbJoueur) // Constructeur pour host
+		public Partie(int nbJoueur, int nbPaquet, int Min, int Max, int ArgentDebut) // Constructeur pour host
 		{
 			TJoueur = new Joueurs[nbJoueur];
 			paquet = new Paquet(2);
