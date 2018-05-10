@@ -27,15 +27,16 @@ namespace Partie
 		int IDJoueur;
 		bool IsHost;
 
-		public Net(bool IsHost, int nbJoueurs) // Crée Host
+		public Net(int nbJoueurs) // Crée Host
 		{
-			this.IsHost = IsHost;
+			IsHost = true;
 			NbJoueur = nbJoueurs;
 			listener = new TcpListener(IPAddress.Any, Port);
 			listener.Start();
+			ID = 1;
 			int nbConnect = 2;
 
-			while (nbConnect != NbJoueur) // Boucle jusqu'a ce que tous les joueur soient connecter 
+			while (nbConnect != NbJoueur+1) // Boucle jusqu'a ce que tous les joueur soient connecter 
 			{
 				socketClient = listener.AcceptSocket();
 				if (socketClient.Connected)
@@ -124,7 +125,7 @@ namespace Partie
 		}
 		public void envoyerMessage(string message)
 		{
-			// Envoyer Message pour le client
+			// Envoyer Message du client à l'Host
 			try
 			{
 				writer.WriteLine("{0},{1}", IDJoueur, message);
@@ -141,7 +142,7 @@ namespace Partie
 		}
 		public string recevoirMessage(int IDJoueur)
 		{
-			// Reception de message pour le Serveur
+			// Reception de message pour le Serveur d'un client
 			string leMessage = "";
 			try
 			{
