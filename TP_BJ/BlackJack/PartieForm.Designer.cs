@@ -582,7 +582,7 @@
             // img_btnHit
             // 
             this.img_btnHit.BackColor = System.Drawing.Color.Transparent;
-            this.img_btnHit.Image = global::Partie.RessImages.HIT;
+            //this.img_btnHit.Image = global::Partie.RessImages.HIT;
             this.img_btnHit.Location = new System.Drawing.Point(928, 657);
             this.img_btnHit.Name = "img_btnHit";
             this.img_btnHit.Size = new System.Drawing.Size(107, 108);
@@ -593,7 +593,7 @@
             // img_btnStand
             // 
             this.img_btnStand.BackColor = System.Drawing.Color.Transparent;
-            this.img_btnStand.Image = global::Partie.RessImages.Stand;
+            //this.img_btnStand.Image = global::Partie.RessImages.Stand;
             this.img_btnStand.Location = new System.Drawing.Point(1044, 657);
             this.img_btnStand.Name = "img_btnStand";
             this.img_btnStand.Size = new System.Drawing.Size(107, 108);
@@ -605,8 +605,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Partie.RessImages.table_blackjack;
-            this.ClientSize = new System.Drawing.Size(1279, 796);
+			this.ClientSize = new System.Drawing.Size(1279, 796);
             this.Controls.Add(this.img_btnStand);
             this.Controls.Add(this.img_btnHit);
             this.Controls.Add(this.grpJoueur);
