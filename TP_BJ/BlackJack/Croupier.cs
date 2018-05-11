@@ -19,11 +19,11 @@ namespace BlackJack
             }
         }
 
-        Assembly CroupierAssembly = Assembly.LoadForm(@"../../Croupier.dll");
-        Type myType = CroupierAssembly.GetTypes()[0];
-        MethodInfo Method = myType.GetMethod("RecevoirValCartes");
-        objet myInstance = Activator.CreateInstance(myType);
-        object[] parametersArry = new object[] { valeur };
-        bool Hit = (bool)(Method.Invoke(myInstance, parametersArray));
+        //Assembly CroupierAssembly = Assembly.LoadForm(@"../../Croupier.dll");
+        //Type myType = CroupierAssembly.GetTypes()[0];
+        //MethodInfo Method = myType.GetMethod("RecevoirValCartes");
+        //objet myInstance = Activator.CreateInstance(myType);
+        //object[] parametersArry = new object[] { valeur };
+        //bool Hit = (bool)(Method.Invoke(myInstance, parametersArray));
    }
 }

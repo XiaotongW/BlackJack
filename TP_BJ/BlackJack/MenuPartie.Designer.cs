@@ -39,6 +39,7 @@
             this.txtNom = new System.Windows.Forms.TextBox();
             this.cmbJoueur = new System.Windows.Forms.ComboBox();
             this.picMenu = new System.Windows.Forms.PictureBox();
+            this.btnRetour = new System.Windows.Forms.Button();
             this.grpMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picMenu)).BeginInit();
             this.SuspendLayout();
@@ -46,6 +47,7 @@
             // grpMenu
             // 
             this.grpMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.grpMenu.Controls.Add(this.btnRetour);
             this.grpMenu.Controls.Add(this.btnOption);
             this.grpMenu.Controls.Add(this.btnRejoindre);
             this.grpMenu.Controls.Add(this.btnCreer);
@@ -74,6 +76,7 @@
             this.btnOption.Text = "Option";
             this.btnOption.UseVisualStyleBackColor = true;
             this.btnOption.Visible = false;
+            this.btnOption.Click += new System.EventHandler(this.btnOption_Click);
             // 
             // btnRejoindre
             // 
@@ -164,6 +167,11 @@
             "4 Joueurs"});
             this.cmbJoueur.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbJoueur.FormattingEnabled = true;
+            this.cmbJoueur.Items.AddRange(new object[] {
+            "1 Joueur",
+            "2 Joueurs",
+            "3 Joueurs",
+            "4 Joueurs"});
             this.cmbJoueur.Location = new System.Drawing.Point(332, 55);
             this.cmbJoueur.Margin = new System.Windows.Forms.Padding(4);
             this.cmbJoueur.Name = "cmbJoueur";
@@ -180,6 +188,22 @@
             this.picMenu.Size = new System.Drawing.Size(899, 487);
             this.picMenu.TabIndex = 0;
             this.picMenu.TabStop = false;
+            // 
+            // btnRetour
+            // 
+            this.btnRetour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnRetour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnRetour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetour.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRetour.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnRetour.Location = new System.Drawing.Point(675, 16);
+            this.btnRetour.Name = "btnRetour";
+            this.btnRetour.Size = new System.Drawing.Size(130, 47);
+            this.btnRetour.TabIndex = 9;
+            this.btnRetour.Text = "retour";
+            this.btnRetour.UseVisualStyleBackColor = false;
+            this.btnRetour.Visible = false;
+            this.btnRetour.Click += new System.EventHandler(this.button1_Click);
             // 
             // MenuPartie
             // 
@@ -212,5 +236,6 @@
 		private System.Windows.Forms.Button btnCreer;
 		private System.Windows.Forms.TextBox txtIP;
 		private System.Windows.Forms.Button btnOption;
-	}
+        private System.Windows.Forms.Button btnRetour;
+    }
 }

@@ -28,7 +28,7 @@
       /// </summary>
       private void InitializeComponent()
       {
-<<<<<<< HEAD
+
 			this.img_C1_J1 = new System.Windows.Forms.PictureBox();
 			this.img_C2_J1 = new System.Windows.Forms.PictureBox();
 			this.img_C3_J1 = new System.Windows.Forms.PictureBox();
@@ -671,7 +671,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.img_btnStand)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
-=======
+
             this.img_C1_J1 = new System.Windows.Forms.PictureBox();
             this.img_C2_J1 = new System.Windows.Forms.PictureBox();
             this.img_C3_J1 = new System.Windows.Forms.PictureBox();
@@ -1283,7 +1283,6 @@
             this.MinimumSize = new System.Drawing.Size(1300, 845);
             this.Name = "PartieForm";
             this.Text = "PartieForm";
-            this.Load += new System.EventHandler(this.PartieForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.img_C1_J1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_C2_J1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_C3_J1)).EndInit();
@@ -1315,7 +1314,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.img_btnStand)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
->>>>>>> f389ca7c56a1b9cd543f38ceb988e6dee731831f
+
 
       }
 
