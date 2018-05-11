@@ -52,4 +52,8 @@ C:\Users\Emile\Desktop\TPFinal\BlackJack\TP_BJ\BlackJack\obj\Debug\BlackJack.Par
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\BlackJack.MenuPartie.resources
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\BlackJack.PartieForm.resources
 C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\TPFinal.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
+C:\Users\James\OneDrive\Cégep\Session 6\P45 (Prog III)\TP2 BlackJack\BK\BlackJack\TP_BJ\BlackJack\obj\Debug\Partie.Option.resources
+=======
 >>>>>>> f389ca7c56a1b9cd543f38ceb988e6dee731831f
+>>>>>>> 3a844367701d6175eefbc871ce80691230955922
