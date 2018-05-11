@@ -28,7 +28,10 @@
       /// </summary>
       private void InitializeComponent()
       {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2e59c6c6766e4750cd4faf524afc6e665d7be040
 			this.img_C1_J1 = new System.Windows.Forms.PictureBox();
 			this.img_C2_J1 = new System.Windows.Forms.PictureBox();
 			this.img_C3_J1 = new System.Windows.Forms.PictureBox();
@@ -671,7 +674,10 @@
 			((System.ComponentModel.ISupportInitialize)(this.img_btnStand)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2e59c6c6766e4750cd4faf524afc6e665d7be040
             this.img_C1_J1 = new System.Windows.Forms.PictureBox();
             this.img_C2_J1 = new System.Windows.Forms.PictureBox();
             this.img_C3_J1 = new System.Windows.Forms.PictureBox();
@@ -1314,8 +1320,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.img_btnStand)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2e59c6c6766e4750cd4faf524afc6e665d7be040
       }
 
         #endregion

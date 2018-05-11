@@ -9,7 +9,6 @@ namespace BlackJack
 {
 	public class Joueurs
 	{
-
 		public Joueurs(string nom)
 		{
 			Nom = nom;

@@ -82,6 +82,11 @@ namespace BlackJack
 			}
 		}
 
+		public bool Hosting
+		{
+			get { return IsHost; }
+		}
+
 		public int ID
 		{
 			set { IDJoueur = value; }
