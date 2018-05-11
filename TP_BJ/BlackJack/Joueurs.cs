@@ -11,14 +11,14 @@ namespace BlackJack
 	{
 		Main mainJoueur;
 		Net netJoueur;
-		public delegate void AjouterCarte();
-		public AjouterCarte delegateAjoutCarte;
+		//public delegate void AjouterCarte();
+		//public AjouterCarte delegateAjoutCarte;
 
 		public Joueurs(string nom)
 		{
 			Nom = nom;
 			mainJoueur = new Main();
-			delegateAjoutCarte = new AjouterCarte(recevoirCarte);
+			//delegateAjoutCarte = new AjouterCarte(recevoirCarte);
 		}
 
 		public string Nom
