@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-   class Main
+   public class Main
    {
         List<Cartes> listCarte;
         public Main()

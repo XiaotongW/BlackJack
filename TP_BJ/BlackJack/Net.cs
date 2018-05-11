@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BlackJack
 {
-	class Net
+	public class Net
 	{
 		const int Port = 8000;
 		static TcpListener listener;

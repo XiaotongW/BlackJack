@@ -34,25 +34,33 @@ namespace BlackJack
 			formPartie = new PartieForm(this);
 			formPartie.Show();
 		}
-
+		public Joueurs this[int ID]
+		{
+			get { return TJoueur[ID]; }
+			private set { TJoueur[ID] = value; }
+		}
 		public void RecevoirNomJoueur(string Nom)
 		{
 			//IDJoueur;Nom Joueur
-			String[] nomJoueur = Nom.Split(new char[1] { ';' });
+			string[] nomJoueur = Nom.Split(new char[1] { ';' });
 			TJoueur[int.Parse(nomJoueur[0])].Nom = nomJoueur[1];
 		}
-		public void distribuerInfo(int IDReception, int Next, string message)
+		public void distribuerInfo(int IDReception, string message)
 		{
+			int Next = IDReception-1;
 			do
 			{
-				//TJoueur[Next].
+				if (Next == 3)
+					Next = 0;
+				TJoueur[Next].netJoueur.envoyerMessage(message, IDReception);
+				Next++; 
 			} while (Next != IDReception);
 		}
 		public void RecevoirCarte(string carteRecut)
 		{
 			string[] infoCarte; // message : IDJoueur;figureCarte;typeCarte
 			infoCarte = carteRecut.Split(new char[1] { ';' });
-			TJoueur[int.Parse(infoCarte[0])].main.ajouterCarte(int.Parse(infoCarte[1]), infoCarte[2]);
+			TJoueur[int.Parse(infoCarte[0])].Main.ajouterCarte(int.Parse(infoCarte[1]), infoCarte[2]);
 		}
 	}
 }
