@@ -17,13 +17,30 @@ namespace BlackJack
 
 		public Partie(int nbJoueur, int nbPaquet, int Min, int Max, int ArgentDebut) // Constructeur pour host
 		{
+			JoueurTour = 1;
+			this.Min = Min;
+			this.Max = Max;
+			Argent = ArgentDebut;
 			TJoueur = new Joueurs[nbJoueur];
 			paquet = new Paquet(nbPaquet);
-			JoueurTour = 1;
 			formPartie = new PartieForm(this);
 			formPartie.Show();
 		}
-
+		public int Min
+		{
+			get;
+			set;
+		}		
+		public int Max
+		{
+			get;
+			set;
+		}
+		public int Argent
+		{
+			get;
+			set;
+		}
 		public Partie()//Counstrusteur pour client
 		{
 			TJoueur = new Joueurs[4];
@@ -37,7 +54,6 @@ namespace BlackJack
 		public Joueurs this[int ID]
 		{
 			get { return TJoueur[ID]; }
-			private set { TJoueur[ID] = value; }
 		}
 		public void RecevoirNomJoueur(string Nom)
 		{
@@ -50,9 +66,10 @@ namespace BlackJack
 			int Next = IDReception-1;
 			do
 			{
-				if (Next == 3)
+				if (Next >= 3)
 					Next = 0;
-				TJoueur[Next].netJoueur.envoyerMessage(message, IDReception);
+				if (TJoueur[Next] != null)
+					TJoueur[Next].netJoueur.envoyerMessage(message, IDReception);
 				Next++; 
 			} while (Next != IDReception);
 		}
